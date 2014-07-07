@@ -21,6 +21,7 @@
 		BAD2D64219645F73000594C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2D62419645F73000594C8 /* UIKit.framework */; };
 		BAD2D64A19645F73000594C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD2D64819645F73000594C8 /* InfoPlist.strings */; };
 		BAD2D64C19645F73000594C8 /* AdsToolbarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2D64B19645F73000594C8 /* AdsToolbarSampleTests.m */; };
+		BAD2D65719646000000594C8 /* ZQAdsToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2D65619646000000594C8 /* ZQAdsToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BAD2D64719645F73000594C8 /* AdsToolbarSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdsToolbarSampleTests-Info.plist"; sourceTree = "<group>"; };
 		BAD2D64919645F73000594C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAD2D64B19645F73000594C8 /* AdsToolbarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsToolbarSampleTests.m; sourceTree = "<group>"; };
+		BAD2D65519646000000594C8 /* ZQAdsToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAdsToolbar.h; sourceTree = "<group>"; };
+		BAD2D65619646000000594C8 /* ZQAdsToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAdsToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				BAD2D63619645F73000594C8 /* ZQViewController.m */,
 				BAD2D63819645F73000594C8 /* Images.xcassets */,
 				BAD2D62719645F73000594C8 /* Supporting Files */,
+				BAD2D65519646000000594C8 /* ZQAdsToolbar.h */,
+				BAD2D65619646000000594C8 /* ZQAdsToolbar.m */,
 			);
 			path = AdsToolbarSample;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				BAD2D62D19645F73000594C8 /* main.m in Sources */,
 				BAD2D63119645F73000594C8 /* ZQAppDelegate.m in Sources */,
 				BAD2D63719645F73000594C8 /* ZQViewController.m in Sources */,
+				BAD2D65719646000000594C8 /* ZQAdsToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZQViewController : UIViewController
+@interface ZQViewController : UIViewController {
+    UIImage *portraitBannerImage;
+    UIImage *landscapeBannerImage;
+    UIImageView *bannerView;
+}
 
 @end
